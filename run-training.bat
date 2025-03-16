@@ -1,0 +1,11 @@
+python video_analysis/training/train.py ^
+--num-epochs 5 ^
+--eval-every 1 ^
+--batch-size 16 ^
+--train-csv-path data/train/train.csv ^
+--train-dir data/train ^
+--val-csv-path data/val/val.csv ^
+--val-dir data/val ^
+--test-csv-path data/test/test.csv ^
+--test-dir data/test ^
+--model-dir development/model
