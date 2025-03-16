@@ -1,3 +1,3 @@
-### Video Sentiment Analysis
+# Video Sentiment Analysis - [WIP]
 
-Video Sentiment Analysis - Emotion and Sentiment Classification
+This is a Multimodal model that detects Emotion and Sentiment Classification in videos.
