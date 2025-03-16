@@ -1,0 +1,22 @@
+[project]
+name = "video-analysis"
+version = "0.1.0"
+description = "Video Sentiment Analysis - Emotion and Sentiment Classification"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "transformers",
+    "librosa",
+    "PySoundFile",
+    "pydantic"
+]
+
+[project.scripts]
+video-analysis = "video_analysis:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
