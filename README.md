@@ -23,7 +23,7 @@ git clone https://github.com/youssefkilany/VideoSentimentAnalysis.git
 ```
 
 ```cli
-git@github.com:youssefkilany/VideoSentimentAnalysis.git
+git clone git@github.com:youssefkilany/VideoSentimentAnalysis.git
 ```
 
 Then, you can install it as a local package
@@ -35,7 +35,7 @@ uv pip install .
 or, if you want to use it while editing
 
 ```cli
-uv install -e . 
+uv pip install -e . 
 ```
 
 ### Executing program
